@@ -1,0 +1,25 @@
+.data-table {
+  border: 2px solid black;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.centre-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.data-table {
+  padding: 12px;
+  margin: 0;
+  text-align: left;
+}
+.data-table th,
+.data-table td {
+  padding: 0;
+  margin: 0;
+}
+.data-table-threat-metrics {
+  text-align: right;
+}

@@ -1,0 +1,30 @@
+.dotted-circular-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  margin: 0 4px;
+  border-radius: 50%;
+  background-color: #000;
+  animation: dot-animation 1s infinite ease-in-out;
+}
+
+@keyframes dot-animation {
+  0% {
+    transform: scale(0.5);
+    opacity: 0.3;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.5);
+    opacity: 0.3;
+  }
+}

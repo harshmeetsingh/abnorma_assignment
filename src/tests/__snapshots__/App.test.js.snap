@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="my-App"
+  >
+    <div
+      class="dashboard-container"
+    >
+      <div
+        class="dropdown-container"
+      >
+        <div
+          class="dotted-circular-loader"
+        >
+          <div
+            class="dot"
+          />
+          <div
+            class="dot"
+          />
+          <div
+            class="dot"
+          />
+        </div>
+      </div>
+      <div
+        class="card-container"
+      >
+        <div
+          class="data-card"
+        >
+          <div
+            class="centre-content data-value"
+            style="color: rgb(240, 0, 15);"
+          >
+            -
+          </div>
+          <div
+            class="centre-content data-label"
+          >
+            High Severity Attacks
+          </div>
+        </div>
+      </div>
+      <div
+        class="card-container"
+      >
+        <div
+          class="data-card"
+        >
+          <div
+            class="centre-content data-value"
+            style="color: rgb(232, 112, 0);"
+          >
+            -
+          </div>
+          <div
+            class="centre-content data-label"
+          >
+            Spam Attacks
+          </div>
+        </div>
+      </div>
+      <div
+        class="table-container"
+      >
+        <div
+          class="centre-div"
+        >
+          <table
+            class="data-table"
+          >
+            <thead>
+              <tr>
+                <th>
+                  Top 5 malicious Websites:
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>
+                  Domain
+                </th>
+                <th
+                  class="data-table-threat-metrics"
+                >
+                  % of threats
+                </th>
+                <th
+                  class="data-table-threat-metrics"
+                >
+                  # of threats
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  Please select a customer
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

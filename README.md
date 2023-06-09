@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+##Project for Abnormal Security
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+####Steps to Run
 
-## Available Scripts
+1. Unzip the file that is shared for this project or download it from this url
 
-In the project directory, you can run:
+2. Goto root directory which is named abnormal_assignment
 
-### `npm start`
+3. Open terminal, run command `npm install`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. After the packages have been successfully installed run comman `npm start`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+5. The server will start on `localhost:3000`. Note: Please make sure nothing else is running on the above mentioned port.
 
-### `npm test`
+6. To run tests use command `npm run test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+###Implementation Details
 
-### `npm run build`
+- Have implemented all the components from scratch and have avoided using external libraries.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Have not used any libraries for writing css
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Implemented React query for making api calls instead of axios which makes the code much more cleaner and is the advised norm
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Implement api calls with react query making sure to follow the guidelines of separation of concerns concept.
 
-### `npm run eject`
+- Have Implemented the DropDown component in a way which makes it very much re-useable across the app or any other app (if we want to publish it for external use)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Have kept the state management logic at top level for simplicity as the project only had few components and only two api calls
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Have properly handled errors and loading states in UI as well
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Have adder proper null checks so UI doesnt break
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Have implemented unit testing using React Testing library. Have test all components for render and data. There can be other use cases as well for testing and can be more exhaustive but haven't added that due to time constraint.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Design is responsive and should work for most screen sizes
